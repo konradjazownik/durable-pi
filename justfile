@@ -29,7 +29,6 @@ default:
 install:
     cd apps/dpi-sdk && npm install --no-audit --no-fund
     cd apps/dpi-backend && npm install --no-audit --no-fund
-    cd apps/dpi-playground && npm install --no-audit --no-fund
     cd apps/dpi-tui && npm install --no-audit --no-fund
 
 # Type checks and unit tests, every app
